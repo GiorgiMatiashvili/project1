@@ -1,4 +1,4 @@
-ul{
+.navbar{
     display: flex;
     justify-content: space-around;
     gap: 20px;
@@ -13,12 +13,19 @@ li, a{
     color: black;
     font-weight: 700;
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 
 header{
     border-bottom: 1px solid black;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .clothes{
@@ -32,12 +39,14 @@ h2{
     font-size: 16px;
     font-weight: 400;
     margin-left: 40px;
+    font-family: 'Poppins', sans-serif;
 }
 h3{
     font-size: 14px;
     line-height: 21px;
     letter-spacing: 0.03em;
     margin: 35px;
+    font-family: 'Poppins', sans-serif;
 }
 .shoes, .shirt, .jacket{
    border: 1px solid black;
@@ -56,6 +65,13 @@ h3{
     padding-right: 10px;
     font-size: 15px;
     font-weight: 400;
+    font-family: 'Poppins', sans-serif;
 
+}
+
+.ingredients{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
 }
 

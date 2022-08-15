@@ -13,6 +13,7 @@ li, a{
     color: black;
     font-weight: 700;
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 header{
     border-bottom: 1px solid black;
@@ -27,6 +28,8 @@ h1{
     display: flex;
     justify-content: center;
     padding-top: 10%;
+    color: #7D0000;
+    font-family: 'Poppins', sans-serif;
 }
 
 .contacts{
@@ -36,4 +39,5 @@ h1{
 h2{
     font-size: 25px;
     font-weight: 400;
+    font-family: 'Poppins', sans-serif;
 }
