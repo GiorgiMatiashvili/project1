@@ -47,7 +47,7 @@ a{
 }
 .ingredients{
     display: flex;
-    gap: 17%;
+    gap: 20%;
     margin-top: 60px;
     margin-left: 100px;
     font-size: 14px;
