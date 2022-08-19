@@ -43,7 +43,7 @@ a{
 .pink-dress, .leather-bag, .white-coat{
     border: 1px solid black;
     border-radius: 2px;
-    max-width: fit-content;
+    padding: 4px 4px;
 }
 .ingredients{
     display: flex;
