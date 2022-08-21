@@ -14,6 +14,7 @@ header{
     margin-top: 25px;
     margin-right: 200px;
     list-style-type: none;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 400;
     font-family: poppins, sans-serif;
@@ -32,6 +33,7 @@ a{
 }
 .index-header{
     text-align: center;
+    font-family: 'Poppins', sans-serif;
     font-size: 24px;
     padding: 25px 0;
 }
@@ -50,6 +52,7 @@ a{
     gap: 20%;
     margin-top: 60px;
     margin-left: 100px;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
 }
 
@@ -61,6 +64,7 @@ a{
     border-radius: 4px;
     margin-left: 200px;
     padding: 6px 26px;
+    font-family: 'Poppins', sans-serif;
     font-size: 12px;
 }
 
@@ -78,6 +82,7 @@ a{
     display: flex;
     justify-content: center;
     color: #7D0000;
+    font-family: 'Poppins', sans-serif;
     font-size: 40px;
     text-transform: capitalize;
     margin-top: 147px;
@@ -109,7 +114,7 @@ a{
 
 
 .about-h1{
-
+    font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
     margin-top: 134px;
@@ -121,6 +126,7 @@ a{
 .about-h2{
     margin-left: 126px;
     margin-top: 115px;
+    font-family: 'Poppins', sans-serif;
     font-size: 25px;
     text-transform: capitalize;
     font-weight: 500;
@@ -129,6 +135,7 @@ a{
 .about-h3{
     margin-left: 434px;
     margin-top: 89px;
+    font-family: 'Poppins', sans-serif;
     font-size: 25px;
     font-weight: 400;
 }
@@ -146,6 +153,7 @@ a{
 .blog-header{
     display: flex;
     justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 15px;
     margin-top: 20px;
@@ -177,4 +185,62 @@ a{
     gap: 10%;
     margin-top: 100px;
     list-style-type: none;
+}
+
+
+/* profile html */
+.profile-main{
+    display: flex;
+    gap: 70px;
+    margin-left: 400px;
+    margin-top: 200px;
+}
+.profile-info{
+    gap: 14px;
+    margin-top: 50px;
+}
+.profile-info p{
+    color: #546CCC;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+.profile-info h1{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.personal-info{
+    margin-left: 221px;
+}
+.personal-info h2{
+    border-bottom: 1px solid #7D0000;
+    width: max-content;
+    padding-bottom: 16px;
+    font-family: 'poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.personal-info ul{
+    list-style-type: none;
+}
+.profile-lists{
+    display: flex;
+    gap: 163px;
+}
+.profile-list1{
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.profile-list2{
+    font-family: 'poppins', sans-serif;
+    font-weight: 500px;
+    font-size: 20px;
+}
+button{
+    margin-left: 85%;
+    padding: 10px 25px;
+    background-color: #87AC87;
+    color: white;
+    border-radius: 10px;
+    border: none;   
 }
